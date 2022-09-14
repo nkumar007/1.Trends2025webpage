@@ -5,9 +5,9 @@
 ## Learnings from this:
 
 - Positioning in CSS
-- When to make use margins and paddings
+- When to make use of margins and paddings
 - How to size images without cropping them
-- This site desktop responsive only
+- This site is desktop responsive only
 
 ## Time Taken:
 
@@ -19,4 +19,4 @@
 
 ## Live Link
 
-[Netlify]()
+[Netlify](https://trends2025webpage.netlify.app/)
