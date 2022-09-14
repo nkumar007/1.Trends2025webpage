@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  margin: 2rem 4rem;
+  position: relative;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Navbar Section */
+.navbar-container img {
+  width: 100px;
+  cursor: pointer;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 3rem;
+  margin-right: 10rem;
+}
+.list-item {
+  font-family: "Orbitron";
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.list-item:hover {
+  border-bottom: 2.6px solid #000;
+}
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.button-group .nav-button {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  border: 2.3px solid #000;
+  padding: 0.4rem 1.6rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  cursor: grab;
+}
+.search-icon svg {
+  width: 22px;
+}
+
+/* Hero Banner Section */
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.square {
+  position: absolute;
+  top: 18rem;
+  left: 6rem;
+}
+.square img {
+  object-fit: cover;
+  width: 321px;
+}
+.model {
+  position: absolute;
+  top: 7rem;
+}
+.model img {
+  object-fit: cover;
+  width: 360px;
+}
+.globe {
+  position: absolute;
+  top: 4rem;
+  left: 36rem;
+}
+.globe img {
+  object-fit: cover;
+  width: 53px;
+}
+.star {
+  position: absolute;
+  top: 5rem;
+  right: 14rem;
+}
+.star-two {
+  position: relative;
+  left: 30rem;
+  top: 18rem;
+}
+.star img {
+  object-fit: cover;
+  width: 53px;
+}
+.star-two img {
+  object-fit: cover;
+  width: 48px;
+}
+.hero-container-right {
+  max-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  text-align: center;
+  position: relative;
+  bottom: -8rem;
+}
+.hero-heading {
+  margin-top: -2rem;
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "Orbitron", sans-serif;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.icons img {
+  object-fit: cover;
+  width: 26px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.btns .button-email {
+  border: 2px solid #000;
+  background-color: transparent;
+  padding: 0.2rem 1.4rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  font-family: "Orbitron", sans-serif;
+}
+.btns .button-join {
+  color: #fff;
+  background-color: #000;
+  border: 0;
+  outline: 0;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  padding: 0.2rem 1.2rem;
+  font-family: "Orbitron", sans-serif;
+}
+
+.contact-heading {
+  color: #777;
+}
+
+.hero-description {
+  color: #777;
+  max-width: 500px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
